@@ -1,10 +1,12 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import { useProduct } from 'vtex.product-context'
-
 import axios from 'axios'
 
-function TotalAvailableItems({ message = "Default message for total-items-available-app:" }) {
+// import { useCssHandles } from 'vtex.css-handles'
+// import styles from './styles/totalItemsAvailable.module.css'
+
+function TotalItemsAvailable({ message = "Default message for total-items-available-app:" }) {
   const productContext = useProduct()
   const [selectedSKU, setSelectedSKU] = useState<number | string | null>(null)
   const [availableItems, setAvailableItems] = useState<number | string | null>(
@@ -32,8 +34,8 @@ function TotalAvailableItems({ message = "Default message for total-items-availa
   )
 }
 
-TotalAvailableItems.schema = {
-  title: 'Total Available Items',
+TotalItemsAvailable.schema = {
+  title: 'Total Items Available',
   description:
     'An app who renders a customized message containing the total amount of a product in stock.',
   type: 'object',
@@ -47,4 +49,4 @@ TotalAvailableItems.schema = {
   },
 }
 
-export default TotalAvailableItems
+export default TotalItemsAvailable
