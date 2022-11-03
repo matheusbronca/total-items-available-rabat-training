@@ -6,6 +6,7 @@
   "description": "An App who get the total available items in the inventory of a selected SKU",
   "categories": [],
   "dependencies": {
+    "vtex.css-handles": "0.x",
     "vtex.product-context": "0.x",
     "vtex.catalog-api-proxy": "0.x"
   },

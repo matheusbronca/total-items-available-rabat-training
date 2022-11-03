@@ -12,7 +12,11 @@
     "@vtex/api": "6.45.12",
     "@vtex/test-tools": "^1.0.0",
     "@vtex/tsconfig": "^0.5.6",
-    "typescript": "3.9.7"
+    "frncubo.total-items-available": "https://matherabat--frncubo.myvtex.com/_v/private/typings/linked/v1/frncubo.total-items-available@1.0.3+build1667448557/public/@types/frncubo.total-items-available",
+    "typescript": "3.9.7",
+    "vtex.catalog-api-proxy": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.catalog-api-proxy@0.10.4/public/_types/react",
+    "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles",
+    "vtex.product-context": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.0/public/@types/vtex.product-context"
   },
   "scripts": {
     "lint": "tsc --noEmit --pretty"
