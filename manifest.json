@@ -1,7 +1,7 @@
 {
   "name": "total-items-available",
-  "vendor": "frncubo",
-  "version": "1.0.3",
+  "vendor": "sqlipartnerfr",
+  "version": "0.0.1",
   "title": "Total Items Available",
   "description": "An App who get the total available items in the inventory of a selected SKU",
   "categories": [],
@@ -11,6 +11,7 @@
     "vtex.catalog-api-proxy": "0.x"
   },
   "builders": {
+    "graphql": "1.x",
     "node": "6.x",
     "docs": "0.x",
     "react": "3.x",
@@ -51,13 +52,18 @@
     },
     {
       "name": "LogisticsAdmin"
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "pokeapi.co",
+        "path": "*"
+      }
     }
   ],
   "billingOptions": {
     "type": "free",
-    "availableCountries": [
-      "*"
-    ],
+    "availableCountries": ["*"],
     "support": {
       "url": "https://frncomunicacao.com.br",
       "email": "matheus.bronca@frncubo.com",

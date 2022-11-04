@@ -7,5 +7,10 @@
     "moduleResolution": "node",
     "target": "es2019"
   },
-  "include": ["./typings/*.d.ts", "./**/*.tsx", "./**/*.ts", "middlewares/totalItemsAvailable.ts"]
+  "include": [
+    "./typings/*.d.ts",
+    "./**/*.tsx",
+    "./**/*.ts",
+    "middlewares/totalItemsAvailable.ts"
+  ]
 }

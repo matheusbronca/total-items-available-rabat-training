@@ -1,5 +1,5 @@
 {
   "total-items-available": {
-    "component": "TotalAvailableItems"
+    "component": "TotalItemsAvailable"
   }
 }

@@ -2563,10 +2563,6 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
-"frncubo.total-items-available@https://matherabat--frncubo.myvtex.com/_v/private/typings/linked/v1/frncubo.total-items-available@1.0.3+build1667448557/public/@types/frncubo.total-items-available":
-  version "0.0.0"
-  resolved "https://matherabat--frncubo.myvtex.com/_v/private/typings/linked/v1/frncubo.total-items-available@1.0.3+build1667448557/public/@types/frncubo.total-items-available#2ae2926a8f6232e9dff60f1b5bf0350ab9b4033a"
-
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"

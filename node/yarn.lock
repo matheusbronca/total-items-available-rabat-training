@@ -2664,10 +2664,6 @@ fresh@~0.5.2:
   resolved "https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
   integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
 
-"frncubo.total-items-available@https://matherabat--frncubo.myvtex.com/_v/private/typings/linked/v1/frncubo.total-items-available@1.0.3+build1667448557/public/@types/frncubo.total-items-available":
-  version "0.0.0"
-  resolved "https://matherabat--frncubo.myvtex.com/_v/private/typings/linked/v1/frncubo.total-items-available@1.0.3+build1667448557/public/@types/frncubo.total-items-available#2ae2926a8f6232e9dff60f1b5bf0350ab9b4033a"
-
 fs-capacitor@^2.0.4:
   version "2.0.4"
   resolved "https://registry.npmjs.org/fs-capacitor/-/fs-capacitor-2.0.4.tgz#5a22e72d40ae5078b4fe64fe4d08c0d3fc88ad3c"

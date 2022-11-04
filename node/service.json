@@ -6,6 +6,14 @@
   "maxReplicas": 4,
   "workers": 1,
   "routes": {
+    "getPokemonByName": {
+      "path": "/_v/pokemon/:pokemonName",
+      "public": true
+    },
+    "getPokemonsRange": {
+      "path": "/_v/pokemons-range",
+      "public": true
+    },
     "getAvailableItems": {
       "path": "/_v/total-items-available/:skuId",
       "public": true,
@@ -13,13 +21,8 @@
       "policies": [
         {
           "effect": "allow",
-          "actions": [
-            "get"
-          ],
-          "principals": [
-            "vrn:apps:*:*:*:*",
-            "vrn:proxy:*:*:*:*"
-          ]
+          "actions": ["get"],
+          "principals": ["vrn:apps:*:*:*:*", "vrn:proxy:*:*:*:*"]
         }
       ]
     }

@@ -2,6 +2,8 @@ import type { ClientsConfig, ServiceContext } from '@vtex/api'
 import { method, Service } from '@vtex/api'
 
 import { Clients } from './clients'
+import { getPokemonByName } from './middlewares/getPokemonByName'
+import { getPokemonsRange } from './middlewares/getPokemonsRange'
 import { totalItemsAvailable } from './middlewares/totalItemsAvailable'
 
 const TIMEOUT_MS = 2000
@@ -31,6 +33,14 @@ export default new Service({
     // `status` is the route ID from service.json. It maps to an array of middlewares (or a single handler).
     getAvailableItems: method({
       GET: [totalItemsAvailable],
+    }),
+
+    getPokemonByName: method({
+      GET: [getPokemonByName],
+    }),
+
+    getPokemonsRange: method({
+      GET: [getPokemonsRange],
     }),
   },
 })
