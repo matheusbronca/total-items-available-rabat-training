@@ -63,7 +63,9 @@
   ],
   "billingOptions": {
     "type": "free",
-    "availableCountries": ["*"],
+    "availableCountries": [
+      "*"
+    ],
     "support": {
       "url": "https://frncomunicacao.com.br",
       "email": "matheus.bronca@frncubo.com",

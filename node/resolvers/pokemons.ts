@@ -1,6 +1,5 @@
 interface Args {
-  from: number
-  to: number
+  qty: number
 }
 
 export const pokemons = (
@@ -8,10 +7,7 @@ export const pokemons = (
   args: Args,
   { clients: { pokemon } }: Context
 ) => {
-  const pokemonsResponse = pokemon.getPokemonsByRange(args.from, args.to)
-
-  // eslint-disable-next-line no-console
-  console.log('Pokemons:::', pokemonsResponse)
+  const pokemonsResponse = pokemon.getPokemonsByRange(args.qty)
 
   return pokemonsResponse
 }

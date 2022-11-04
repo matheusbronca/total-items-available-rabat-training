@@ -8,8 +8,10 @@ export class PokemonClient extends ExternalClient {
   }
 
   // Get the pokemons between a Range:
-  public getPokemonsByRange = async (from: number, to: number) => {
-    return this.http.get(`/pokemon?limit=${from}&offset=${to}`, {
+  public getPokemonsByRange = async (qty: number) => {
+    console.log('pokemon quantity::: ', qty as any)
+
+    return this.http.get(`pokemon?limit=${qty}`, {
       headers: {
         'X-Vtex-Use-Https': 'true',
       },

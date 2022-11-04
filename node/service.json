@@ -11,7 +11,7 @@
       "public": true
     },
     "getPokemonsRange": {
-      "path": "/_v/pokemons-range",
+      "path": "/_v/pokemons-range/:qty",
       "public": true
     },
     "getAvailableItems": {
@@ -21,8 +21,13 @@
       "policies": [
         {
           "effect": "allow",
-          "actions": ["get"],
-          "principals": ["vrn:apps:*:*:*:*", "vrn:proxy:*:*:*:*"]
+          "actions": [
+            "get"
+          ],
+          "principals": [
+            "vrn:apps:*:*:*:*",
+            "vrn:proxy:*:*:*:*"
+          ]
         }
       ]
     }
