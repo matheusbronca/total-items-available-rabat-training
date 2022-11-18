@@ -1,5 +1,5 @@
 import type { InstanceOptions, IOContext } from '@vtex/api'
-import { ExternalClient } from '@vtex/api'
+import { AppClient, ExternalClient } from '@vtex/api'
 
 export class PokemonClient extends ExternalClient {
   constructor(context: IOContext, options?: InstanceOptions) {
@@ -8,10 +8,8 @@ export class PokemonClient extends ExternalClient {
   }
 
   // Get the pokemons between a Range:
-  public getPokemonsByRange = async (qty: number) => {
-    console.log('pokemon quantity::: ', qty as any)
-
-    return this.http.get(`pokemon?limit=${qty}`, {
+  public getPokemonsByRange = async (quantity: number) => {
+    return this.http.get(`pokemon?limit=${quantity}&offset=0`, {
       headers: {
         'X-Vtex-Use-Https': 'true',
       },

@@ -1,9 +1,9 @@
 {
-  "name": "total-items-available",
-  "vendor": "sqlipartnerfr",
-  "version": "0.0.1",
-  "title": "Total Items Available",
-  "description": "An App who get the total available items in the inventory of a selected SKU",
+  "name": "custom-app-example",
+  "vendor": "incentropartnernl",
+  "version": "0.0.0",
+  "title": "Customized Application Example",
+  "description": "A didactic application that shows the various possibilities that a custom vtex IO application is capable of delivering",
   "categories": [],
   "dependencies": {
     "vtex.css-handles": "0.x",
@@ -63,9 +63,7 @@
   ],
   "billingOptions": {
     "type": "free",
-    "availableCountries": [
-      "*"
-    ],
+    "availableCountries": ["*"],
     "support": {
       "url": "https://frncomunicacao.com.br",
       "email": "matheus.bronca@frncubo.com",
