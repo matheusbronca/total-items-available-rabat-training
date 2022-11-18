@@ -1,5 +1,5 @@
 import type { InstanceOptions, IOContext } from '@vtex/api'
-import { AppClient, ExternalClient } from '@vtex/api'
+import { ExternalClient } from '@vtex/api'
 
 export class PokemonClient extends ExternalClient {
   constructor(context: IOContext, options?: InstanceOptions) {
